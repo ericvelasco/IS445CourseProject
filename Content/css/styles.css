@@ -1,0 +1,74 @@
+﻿header {
+    text-align: center;
+}
+
+.navbar-nav > li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-default {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.navtab-outline {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 25px;
+}
+
+/*AboutMe css*/
+.aboutme-container {
+    margin: 50px;
+    max-width: 600px;
+}
+
+.aboutme-subcontainer {
+    text-align: left;
+    margin: 0px;
+    display: inline;
+}
+
+.bodytext {
+    max-width: 380px;
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 100px;
+}
+
+ul.bullet {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol.numbered {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+h2.aboutme-title {
+    text-align: center;
+    color: blue;
+    padding: 5px;
+}
+
+h3.aboutme-subtitle {
+    text-align: center;
+    color: purple;
+    padding: 5px;
+}
+
+

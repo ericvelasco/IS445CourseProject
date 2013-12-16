@@ -1,0 +1,57 @@
+﻿body {
+    max-width: 680px;
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+
+nav {
+    background-color: green;
+    height: 40px;
+}
+
+article {
+    background-color: pink;
+    color: white;
+    max-width: 453px;
+    height:200px;
+}
+
+section {
+    background-color: brown;
+    color: white;
+    max-width: 453px;
+    height: 75px;
+}
+
+aside {
+    background-color: cyan;
+    color: white;
+    max-width: 266px;
+    height: 200px;
+}
+
+footer {
+    background-color: lime;
+    color: white;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration-color: white;
+}
+
+

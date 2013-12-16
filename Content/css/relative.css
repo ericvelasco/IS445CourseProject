@@ -1,0 +1,68 @@
+﻿body {
+    max-width: 680px;
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 680px;
+}
+
+nav {
+    background-color: green;
+    height: 40px;
+    width: 680px;
+    position: relative;
+}
+
+article {
+    background-color: pink;
+    color: white;
+    width: 453px;
+    height:200px;
+    position: relative;
+}
+
+section {
+    background-color: brown;
+    color: white;
+    width: 453px;
+    height: 75px;
+    position: relative;
+}
+
+aside {
+    background-color: cyan;
+    color: white;
+    height: 200px;
+    width: 227px;
+    position: relative;
+    left: 453px;
+    bottom: 200px;
+}
+
+footer {
+    background-color: lime;
+    color: white;
+    height: 40px;
+    width: 680px;
+    position: relative;
+    bottom:200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration-color: white;
+}
+
+

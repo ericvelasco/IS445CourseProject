@@ -1,0 +1,21 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Format Phone Number";
+}
+@if (Model == ""){
+    <div class="body-container">
+        <p>Invalid input. Please enter 10 digits for valid input.</p>
+        <div>
+            <a href="ServerSideDemo">Reset</a>
+        </div>
+    </div>
+}
+else {
+    <div class="body-container">
+        <p>Your formatted number is @Model</p>
+        <div>
+            <a href="ServerSideDemo">Reset</a>
+        </div>
+    </div>
+}

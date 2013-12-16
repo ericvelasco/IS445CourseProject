@@ -1,0 +1,13 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Server Side Demo";
+}
+
+@using (Html.BeginForm("FormatPhoneNumber", "Home")) {
+<div class="body-container">
+  <label for="inputNumber">Please input a phone number: </label>
+  <input type="text" name="inputNumber" id="inputNumber" value=""/>
+  <input type="submit" name="submit" value="submit" />
+</div>
+}

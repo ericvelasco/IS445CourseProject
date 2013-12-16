@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="/Content/css/styles.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-responsive.css" />
+</head>
+<header>
+    <h1>Eric Velasco's ASP.NET MVC Web Site in Windows Azure</h1>
+</header>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar-nav">
+            <li>
+                @Html.ActionLink("Home", "Index")
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Form/Layout Demos <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        @Html.ActionLink("Web Form", "Webform")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Layout Demos", "LayoutDemos")
+                    </li>
+                </ul>
+            </li>
+            <li>
+                @Html.ActionLink("Client Side Demo", "ClientSideDemo")
+            </li>
+            <li>
+                @Html.ActionLink("Server Side Demo", "ServerSideDemo")
+            </li>
+            <li>
+                @Html.ActionLink("About Me", "AboutMe")
+            </li>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="/Content/js/bootstrap.js"></script>
